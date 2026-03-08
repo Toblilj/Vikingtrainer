@@ -45,7 +45,6 @@ export default function Index() {
   );
 }
 
-//startskärm-läggs här
 export function HeaderView() {
   return (
     <View
@@ -66,41 +65,7 @@ export function HeaderView() {
   );
 }
 
-// knappar för navigation läggs här
-// export  function IntervalButton(){
-// return (
-// <View style= {{
-//   padding:20,
-//   backgroundColor:'#ebeaf0ff',
-
-//         justifyContent: "center",
-//         alignItems: "center",
-//   }}>
-
-// <Text>Interval Runing</Text>
-//   </View>
-// );
-// };
-
 interface RusticBackgroundProps {
   children: React.ReactNode;
   className?: string;
 }
-
-//import { RusticBackground } from './components/RusticBackground';
-// import { RusticButton } from './components/RusticButton';
-
-// /src/app/components/RusticBackground.tsx
-
-// button
-// /src/app/components/RusticButton.tsx
-
-/*
-  return (
-    <View >
-      <RusticBackground style={{flex:1}}>
-      <HeaderView />
-      <IntervalButton />
-      </RusticBackground>
-    </View>
-  )*/
